@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+<listener class-name = "TestNGPrograms.Day11ListenersTest"/>
+</listeners>
+  <test name="RetryMulitple">
+    <classes>
+      <class name="TestNGPrograms.Day9ParallelTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
